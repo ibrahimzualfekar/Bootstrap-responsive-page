@@ -1,0 +1,658 @@
+/* Start-General */
+:root {
+  --padding-top: 100px;
+  --padding-bottom: 100px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .logo {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+/* sections-header */
+.section-header .section-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  z-index: 1;
+}
+
+.section-header .section-title::before {
+  content: "";
+  width: 210px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+  background-image: url(../images/dots.png);
+  background-repeat: repeat;
+  z-index: -1;
+}
+/* sections-header */
+
+/* End-General */
+
+/* ********************************************************************************* */
+
+/* Start-Nav */
+
+nav .container {
+  padding: 1.2rem 5.7rem;
+}
+nav .container a {
+  color: #fff;
+}
+nav .container a:hover {
+  color: #fff !important;
+}
+nav .container ul a {
+  font-size: 0.9rem;
+}
+nav .navbar-toggler-icon{
+  color: #fff;
+}
+
+/* End-Nav */
+
+/* ********************************************************************************* */
+
+/* Start-Home */
+#Home {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+}
+
+.home-overly {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.home-content-title {
+  margin-top: 3.125rem;
+}
+
+.home-content-title .home-content-header {
+  font-size: 3.125rem;
+  /* font-weight: 800; */
+}
+
+.home-content-title h2 span {
+  font-size: 3.75rem;
+}
+
+/* ****Home - Animation****** */
+.home-content-title h2 span::after {
+  content: "|";
+  animation-name: typing;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  font-weight: 400;
+}
+
+@keyframes typing {
+  1.04167% {
+    content: "|";
+  }
+  2.08334% {
+    content: "L|";
+  }
+  3.12501% {
+    content: "La|";
+  }
+  4.16668% {
+    content: "Lar|";
+  }
+  5.20835% {
+    content: "Larr|";
+  }
+  6.25002% {
+    content: "Larry|";
+  }
+  7.29169% {
+    content: "Larry |";
+  }
+  8.33336% {
+    content: "Larry D|";
+  }
+  9.37503% {
+    content: "Larry Da|";
+  }
+  10.4167% {
+    content: "Larry Dan|";
+  }
+  11.45837% {
+    content: "Larry Dani|";
+  }
+  12.50004% {
+    content: "Larry Danie|";
+  }
+  13.54171% {
+    content: "Larry Daniel|";
+  }
+  14.58338% {
+    content: "Larry Daniels|";
+  }
+  15.62505% {
+    content: "Larry Daniels|";
+  }
+  16.66672% {
+    content: "Larry Daniels|";
+  }
+  17.70839% {
+    content: "Larry Daniels|";
+  }
+  18.75006% {
+    content: "Larry Daniels|";
+  }
+  19.79173% {
+    content: "Larry Daniels|";
+  }
+  20.8334% {
+    content: "Larry Daniels|";
+  }
+  21.87507% {
+    content: "Larry Daniels|";
+  }
+  22.91674% {
+    content: "Larry Daniels|";
+  }
+  23.95841% {
+    content: "Larry Daniels|";
+  }
+  25.00008% {
+    content: "Larry Daniels|";
+  }
+  26.04175% {
+    content: "Larry Daniels|";
+  }
+  27.08342% {
+    content: "Larry Daniels|";
+  }
+  28.12509% {
+    content: "Larry Daniel|";
+  }
+  29.16676% {
+    content: "Larry Danie|";
+  }
+  30.20843% {
+    content: "Larry Dani|";
+  }
+  31.2501% {
+    content: "Larry Dan|";
+  }
+  32.29177% {
+    content: "Larry Da|";
+  }
+  33.33344% {
+    content: "Larry |";
+  }
+  34.37511% {
+    content: "Larry|";
+  }
+  35.41678% {
+    content: "Larr|";
+  }
+  36.45845% {
+    content: "Lar|";
+  }
+  37.50012% {
+    content: "La|";
+  }
+  38.54179% {
+    content: "L|";
+  }
+  39.58346% {
+    content: "|";
+  }
+  40.62513% {
+    content: "D|";
+  }
+  41.6668% {
+    content: "De|";
+  }
+  42.70847% {
+    content: "Dev|";
+  }
+  43.75014% {
+    content: "Deve|";
+  }
+  44.79181% {
+    content: "Devel|";
+  }
+  45.83348% {
+    content: "Develo|";
+  }
+  46.87515% {
+    content: "Develop|";
+  }
+  47.9168200000001% {
+    content: "Develope|";
+  }
+  48.9584900000001% {
+    content: "Developer|";
+  }
+  50.0001600000001% {
+    content: "Developer|";
+  }
+  51.0418300000001% {
+    content: "Developer|";
+  }
+  52.0835000000001% {
+    content: "Developer|";
+  }
+  53.1251700000001% {
+    content: "Developer|";
+  }
+  54.1668400000001% {
+    content: "Developer|";
+  }
+  55.2085100000001% {
+    content: "Developer|";
+  }
+  56.2501800000001% {
+    content: "Developer|";
+  }
+  57.2918500000001% {
+    content: "Developer|";
+  }
+  58.3335200000001% {
+    content: "Developer|";
+  }
+  59.3751900000001% {
+    content: "Developer|";
+  }
+  60.4168600000001% {
+    content: "Developer|";
+  }
+  61.4585300000001% {
+    content: "Developer|";
+  }
+  62.5002000000001% {
+    content: "Develope|";
+  }
+  63.5418700000001% {
+    content: "Develop|";
+  }
+  64.5835400000001% {
+    content: "Develo|";
+  }
+  65.6252100000001% {
+    content: "Devel|";
+  }
+  66.6668800000001% {
+    content: "Deve|";
+  }
+  67.7085500000001% {
+    content: "Dev|";
+  }
+  68.7502200000001% {
+    content: "De|";
+  }
+  69.7918900000001% {
+    content: "D|";
+  }
+  70.8335600000001% {
+    content: "|";
+  }
+  71.8752300000001% {
+    content: "D|";
+  }
+  72.9169000000001% {
+    content: "De|";
+  }
+  73.9585700000001% {
+    content: "Des|";
+  }
+  75.0002400000001% {
+    content: "Desi|";
+  }
+  76.0419100000001% {
+    content: "Desig|";
+  }
+  77.0835800000001% {
+    content: "Design|";
+  }
+  78.1252500000001% {
+    content: "Designe|";
+  }
+  79.16692% {
+    content: "Designer|";
+  }
+  80.20859% {
+    content: "Designer|";
+  }
+  81.25026% {
+    content: "Designer|";
+  }
+  82.29193% {
+    content: "Designer|";
+  }
+  83.3336% {
+    content: "Designer|";
+  }
+  84.37527% {
+    content: "Designer|";
+  }
+  85.41694% {
+    content: "Designer|";
+  }
+  86.45861% {
+    content: "Designer|";
+  }
+  87.50028% {
+    content: "Designer|";
+  }
+  88.54195% {
+    content: "Designer|";
+  }
+  89.58362% {
+    content: "Designer|";
+  }
+  90.62529% {
+    content: "Designer|";
+  }
+  91.66696% {
+    content: "Designer|";
+  }
+  92.70863% {
+    content: "Designe|";
+  }
+  93.7503% {
+    content: "Design|";
+  }
+  94.79197% {
+    content: "Desig|";
+  }
+  95.83364% {
+    content: "Desi|";
+  }
+  96.87531% {
+    content: "Des|";
+  }
+  97.91698% {
+    content: "De|";
+  }
+  98.95865% {
+    content: "D|";
+  }
+  100.00032% {
+    content: "|";
+  }
+}
+/* ****Home - Animation****** */
+
+/* End-Home */
+
+/* ********************************************************************************* */
+
+/* Start-About */
+#about {
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+}
+
+#about .container .about-img::after {
+  content: "";
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  right: 25%;
+  top: 25%;
+  background-image: url(../images/dots.png);
+  z-index: -1;
+}
+
+#about .about-content p.fir-con {
+  color: #999;
+}
+#about .about-content p.sec-con {
+  color: #748182;
+  font-size: 14px;
+}
+
+#about .progress-container .progress {
+  border-radius: 5px;
+  background: #f7f7f7;
+  -webkit-box-shadow: 0px 2px 7px rgb(0 0 0 / 15%) inset;
+  box-shadow: 0px 2px 7px rgb(0 0 0 / 15%) inset;
+}
+
+#about .progress-container .progress-bar {
+  border-radius: 6px;
+}
+
+#about .botton-container .btn {
+  font-size: 13px;
+  transition: all 0.5s;
+}
+
+#about .botton-container .btn-con {
+  background: #fff;
+  color: #000;
+}
+
+#about .botton-container .btn-con:hover {
+  background: #000;
+  color: #fff;
+}
+#about .botton-container .btn-cv:hover {
+  background: #fff;
+  color: #000;
+}
+/* End-About */
+
+/* ********************************************************************************* */
+
+/* Start-Services */
+#services {
+  background: #f7f7f7;
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+}
+
+#services .services-icon .serv-icon-contain {
+  width: 70px;
+  height: 70px;
+  background: #f4f4f4;
+  transition: all 0.5s;
+}
+
+#services .services-item:hover .serv-icon-contain {
+  background: #000;
+  color: #fff;
+}
+
+#services .services-item-content p {
+  font-size: 13px;
+}
+/* End-Services */
+
+/* ********************************************************************************* */
+
+/* Start-Portfolio */
+#portfolio{
+  padding-bottom: var(--padding-bottom);
+}
+
+#portfolio .all-img .lay{
+  z-index: -10;
+}
+
+
+#portfolio .all-img:hover .lay{
+  z-index: 1;
+}
+
+
+#portfolio .lay{
+  width: 98%;
+  height: 97%;
+  background: rgba(255, 255, 255, 0.95);
+  top: 5px;
+  left: 4px;
+}
+
+#portfolio .lay-icon-blk{
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s;
+
+}
+#portfolio .lay-icon-blk:hover {
+  background: #fff !important;
+  color: #000 !important;
+  cursor: pointer;
+
+}
+
+
+
+
+/* End-Portfolio */
+
+/* ********************************************************************************* */
+
+/* Start-Testimonials */
+
+#testimonials {
+  background: #F7F7F7;
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+}
+
+#testimonials .container .carousel-indicators button{
+  margin-bottom: -3rem;
+  width: 12px;
+  height: 12px;
+}
+
+#testimonials span{
+  font-size: 12px;
+}
+
+/* End-Testimonials */
+
+/* ********************************************************************************* */
+/* Start-counter */
+#counter{
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+}
+#counter .counter-box h4 {
+  font-weight: 900;
+}
+#counter .counter-box p {
+  font-size: 13px;
+  font-weight: 500;
+}
+/* End-counter */
+
+/* ********************************************************************************* */
+
+/* Start-Blog */
+#blog{
+    background: #F7F7F7;
+    padding-top: var(--padding-top);
+    padding-bottom: var(--padding-bottom);
+}
+
+#blog .container .carousel-indicators{
+  bottom: -45px;
+}
+
+#blog .container .carousel-indicators button{
+  margin-bottom: -3rem;
+  width: 12px;
+  height: 12px;
+}
+
+#blog .card-body a {
+  font-size: 13px;
+}
+
+#blog .img-box{
+  overflow: hidden;
+}
+#blog .img-box img{
+  transition: all 0.5s;
+}
+#blog .img-box:hover img{
+  transform: scale(1.1);
+}
+
+/* End-Blog */
+
+/* ********************************************************************************* */
+
+/* Start-contact */
+
+#contact{
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+}
+
+#contact .contact-icon{
+  width: 60px;
+  height: 60px;
+  background: #f4f4f4;
+  transition: all 0.5s;
+}
+#contact .first-row span {
+  font-size: 13px;
+}
+
+#contact .first-row:hover .contact-icon{
+  background: #000;
+  color: #fff;
+  
+}
+
+#contact input{
+  height: 35px;
+  background: #f4f4f4;
+  font-size: 13px;
+}
+#contact textarea{
+  background: #f4f4f4;
+  font-size: 13px;
+  resize: none;
+}
+
+#contact button{
+  font-size: 13px;
+  transition: all 0.5s;
+}
+#contact button:hover{
+  background: #fff;
+  color: #000;
+}
+
+@media screen and (max-width:576px) {
+  #contact input[placeholder="Email"]{
+    margin-top: 15px;
+  }
+}
+/* End-contact */
+
+/* ********************************************************************************* */
+
+/* Start-Footer */
+#footer{
+  background: #000;
+  padding: 30px;
+}
+#footer p{
+  font-size: 12px;
+  color: #748182;
+}
+
+/* Start-Footer */
+
+/* ********************************************************************************* */
